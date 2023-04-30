@@ -181,3 +181,69 @@ li {
 input[type=checkbox] {
     margin-right: 8px;
 }
+
+@media (prefers-color-scheme: dark)
+{
+  html {
+      color: #C8C8C8;
+      background-color: #202124;
+  }
+  
+  h1 {
+      border-bottom: 1px solid #111111;
+  }
+  
+  h2 {
+      border-bottom: 1px solid #111111;
+  }
+  
+  h6 {
+      color: #888888;
+      font-size: 1em;
+  }
+  
+  hr {
+      background-color: #181818;
+  }
+  
+  tr {
+      background-color: #000000;
+      border-top: 1px solid #333333;
+  }
+  
+  tr:nth-child(2n) {
+      background-color: #070707
+  }
+  
+  th {
+      border: 1px solid #222222;
+  }
+  
+  td {
+      border: 1px solid #222222;
+  }
+  
+  pre {
+      background-color: #080808;
+  }
+  
+  a {
+      color: #be7c3b;
+  }
+  
+  blockquote {
+      color: #888888;
+      border-left: 4px solid #222222;
+  }
+  
+  code,
+  tt {
+      background-color: rgba(0, 0, 0, 0.04);
+  }
+  
+  pre code {
+      font-size: 100%;
+      background-color: #080808;
+  }
+}
+
